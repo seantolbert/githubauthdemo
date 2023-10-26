@@ -11,6 +11,8 @@ PODS:
     - ExpoModulesCore
   - Expo (49.0.16):
     - ExpoModulesCore
+  - ExpoCrypto (12.4.1):
+    - ExpoModulesCore
   - ExpoHead (0.0.15):
     - ExpoModulesCore
   - ExpoKeepAwake (12.3.0):
@@ -459,6 +461,8 @@ PODS:
     - React-jsi (= 0.72.6)
     - React-logger (= 0.72.6)
     - React-perflogger (= 0.72.6)
+  - RNCAsyncStorage (1.18.2):
+    - React-Core
   - RNGestureHandler (2.12.1):
     - React-Core
   - RNScreens (3.22.1):
@@ -475,6 +479,7 @@ DEPENDENCIES:
   - EXFileSystem (from `../node_modules/expo-file-system/ios`)
   - EXFont (from `../node_modules/expo-font/ios`)
   - Expo (from `../node_modules/expo`)
+  - ExpoCrypto (from `../node_modules/expo-crypto/ios`)
   - ExpoHead (from `../node_modules/expo-head/ios`)
   - ExpoKeepAwake (from `../node_modules/expo-keep-awake/ios`)
   - ExpoModulesCore (from `../node_modules/expo-modules-core`)
@@ -520,6 +525,7 @@ DEPENDENCIES:
   - React-runtimescheduler (from `../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler`)
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -545,6 +551,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-font/ios"
   Expo:
     :path: "../node_modules/expo"
+  ExpoCrypto:
+    :path: "../node_modules/expo-crypto/ios"
   ExpoHead:
     :path: "../node_modules/expo-head/ios"
   ExpoKeepAwake:
@@ -632,6 +640,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/utils"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-async-storage/async-storage"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNScreens:
@@ -647,6 +657,7 @@ SPEC CHECKSUMS:
   EXFileSystem: 2b826a3bf1071a4b80a8457e97124783d1ac860e
   EXFont: 738c44c390953ebcbab075a4848bfbef025fd9ee
   Expo: fcfd60c1ed6806dee5103b210335ae0c72f675ed
+  ExpoCrypto: a382ab9a2fa91f0b511ce1fe4d6baecee40a1615
   ExpoHead: 249669d2a6c1d55846bb15d7f22d0d294aaf060f
   ExpoKeepAwake: be4cbd52d9b177cde0fd66daa1913afa3161fc1d
   ExpoModulesCore: 51cb2e7ab4c8da14be3f40b66d54c1781002e99d
@@ -692,6 +703,7 @@ SPEC CHECKSUMS:
   React-runtimescheduler: f23e337008403341177fc52ee4ca94e442c17ede
   React-utils: fa59c9a3375fb6f4aeb66714fd3f7f76b43a9f16
   ReactCommon: dd03c17275c200496f346af93a7b94c53f3093a4
+  RNCAsyncStorage: ddc4ee162bfd41b0d2c68bf2d95acd81dd7f1f93
   RNGestureHandler: c0d04458598fcb26052494ae23dda8f8f5162b13
   RNScreens: 50ffe2fa2342eabb2d0afbe19f7c1af286bc7fb3
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
